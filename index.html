@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/javascript.js"></script>
+    <title>JS Basics</title>
+</head>
+<body>
+    <script>
+        let user;
+        let pwd;
+
+        /*do {
+            user= prompt('Write your user:');
+
+            if (user == "") {
+            alert("Canceled");
+
+            }else if(user != "Admin"){
+                alert("I don\'t know you");
+            }else{
+            }
+        } while (user != "Admin");
+
+
+
+        do {
+            pwd= prompt('Write your password:');
+
+            if (pwd == "") {
+                alert("Canceled");
+
+            }else if(pwd == "TheMaster"){
+                alert("Welcome!");
+
+            }else if(pwd != "TheMaster"){
+                alert("Wrong password");
+            }else{
+
+            }
+            
+        } while (pwd != "TheMaster");*/
+
+        do {
+            user= prompt('Write your user:');
+
+            if (user == "") {
+            alert("Canceled");
+
+            }else if(user != "Admin"){
+                alert("I don\'t know you");
+
+            }else{
+
+                do {
+                    pwd= prompt('Write your password:');
+
+                        if (pwd == "") {
+                            alert("Canceled");
+
+                        }else if(pwd == "TheMaster"){
+                            alert("Welcome!");
+
+                        }else if(pwd != "TheMaster"){
+                            alert("Wrong password");
+                        }else{
+
+                        }
+                } while (pwd != "TheMaster");
+            }
+            
+        } while (user != "Admin");
+
+    </script>
+    
+</body>
+</html>
